@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Vibur">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+        <div id="gradient">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">DJ</a>
+                <a class="navbar-brand" href=previous.html>Journal Entry DB</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </nav>
+
+              <nav class="navbar navbar-dark bg-dark">
+                    <!-- Navbar content -->
+                  </nav>
+             
+    <h1 class="logo"><b>J<span>ou</span>rn<span>a</span>l</b></h1>
+    <section class= journal__section>
+    <form class=journal__chart action="">
+        <fieldset>
+            <label for="journalDate">Date of entry</label>
+            <br>
+            <input type="date" name="journalDate" id= "journalDate">
+        </fieldset>
+    </form>
+    
+    <form class= journal__chart action="">
+        <fieldset>
+            <label for="conceptCovered">ConceptsCovered</label>
+            <br>
+            <input type="text" name="conceptCovered" id="conceptCovered">
+        </fieldset>
+    <form class= journal__chart action="">
+        <fieldset>
+           <label for="journalEntry">Journal Entry</label>
+           <br>
+           <textarea name="journalEntry" id="journalEntry" cols="30" rows="10"> </textarea>
+        </fieldset>
+    </form>  
+    <form class= journal__chart action="">
+        <fieldset>
+            <label for="journalMood">Mood of the Day</label>
+            <br>
+            <select name="journalMood" id="journalMood">
+                    <option value="irate">irate</option>
+                    <option value="Happy">Happy</option>
+                    <option value="Sad">Sad</option>
+                    <option value="melancholy">melancholy</option>
+                    <option value="determined">determined</option>
+        </fieldset>
+    </form>
+</div>
+    <select>
+    <button id= "submitButton" type="submit">Record Journal Entry</button>
+    </select> 
+    </section>
+    <article class="entryLog">
+</article>
+    <footer>Jacob Perry @Newforce2019</footer>
+    <script type= "module" src="scripts/journal.js"></script>
+
+</body>
+</html>

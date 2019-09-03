@@ -1,0 +1,51 @@
+
+{"entries":[
+
+    {"concept":"Handling Browser Events",
+    "date" :"7/16/19",
+    "entry":"Did Practice to Handle Browser Events",
+    "mood":"Happy"
+    },
+
+    {"concept":"Collecting User Input",
+    "date" :"7/19/19",
+    "entry":"Did Practice and exercises to collect User input ",
+    "mood":"Happy"
+    },
+
+    {"concept":"Event Delegation",
+    "date" :"7/20/19",
+    "entry":"Did Practice and exercises on Event Delegation ",
+    "mood":"Happy"
+    },
+
+    {"concept":"Daily Journal part 4 and group Project",
+    "date" :"7/21/19",
+    "entry":"Worked on part 4 of our Daily Journal while starting the Language group project ",
+    "mood":"Happy"
+    },
+
+    {"concept":"Group Project day 2",
+    "date" :"7/22/19",
+    "entry":"Worked on our Languagge Group Project as a team ",
+    "mood":"Happy"
+    },
+
+    {"concept":"Group Project day 3 and Retros",
+    "date" :"7/23/19",
+    "entry":"Final day of Language Group Project while also going through Retros",
+    "mood":"Happy"
+    },
+
+    {"concept":"Building and Using API",
+    "date" :"7/26/19",
+    "entry":"Learning how to build and use an API",
+    "mood":"Happy"
+    },
+
+    {"concept":"Fetchin Data",
+    "date" :"7/27/19",
+    "entry":"Learned how to fetch data from our API while also working on the next daily Journal assignment",
+    "mood":"Happy"
+    }
+]}
